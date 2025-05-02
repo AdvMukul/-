@@ -1,7 +1,7 @@
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #f7f8fa; /* Lighter background for a cleaner look */
-    color: #333; /* Darker text for better readability */
+    background-color: #f7f8fa;
+    color: #333; 
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -10,15 +10,15 @@ body {
 .container {
     max-width: 900px;
     margin: 2rem auto;
-    background: #ffffff; /* White background for content */
+    background: #ffffff; 
     padding: 2.5rem;
     border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
     transition: box-shadow 0.3s ease-in-out;
 }
 
 .container:hover {
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); /* Hover effect for container */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); 
 }
 
 .profile {
@@ -29,22 +29,22 @@ body {
 }
 
 .profile img {
-    width: 180px;
-    height: 180px;
+    width: 250px;
+    height: auto;
     object-fit: cover;
-    border-radius: 12px;
-    border: 4px solid #00449e; /* Blue border around image for style */
+    border-radius: 10px;
+   
     transition: transform 0.3s ease-in-out;
 }
 
 .profile img:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
+    transform: scale(1.05);
 }
 
 .info h1 {
     font-size: 3.2rem;
     margin: 0;
-    color: #222; /* Darker title for contrast */
+    color: #222; 
     font-weight: 700;
     text-align: left;
 }
@@ -56,7 +56,7 @@ a {
 }
 
 a:hover {
-    color: #ff5c8e; /* Soft hover color for links */
+    color: #ff5c8e; 
     text-decoration: underline;
 }
 
@@ -91,7 +91,7 @@ hr {
 
 .papers li::before {
     content: "• ";
-    color: #00449e; /* Matching list bullet with link color */
+    color: #e63946; 
 }
 
 .Organization {
