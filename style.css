@@ -44,7 +44,7 @@ body {
 .info h1 {
     font-size: 3.2rem;
     margin: 0;
-    color: #222; 
+    color: #404258; 
     font-weight: 700;
     text-align: left;
 }
@@ -56,7 +56,7 @@ a {
 }
 
 a:hover {
-    color: #ff5c8e; 
+    color: #e63946; 
     text-decoration: underline;
 }
 
@@ -64,6 +64,7 @@ a:hover {
     color: #e63946;
     font-weight: bold;
     text-transform: uppercase;
+    text-decoration: underline;
 }
 
 .note {
