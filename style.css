@@ -1,0 +1,80 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.profile {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.profile img {
+    width: 180px;
+    border-radius: 8px;
+}
+
+.info h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+a {
+    color: #00449e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cv-link {
+    color: red;
+    font-weight: bold;
+}
+
+.note {
+    font-style: italic;
+    color: #666;
+}
+
+hr {
+    margin: 2rem 0;
+}
+
+.papers ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.papers li {
+    margin-bottom: 1.5rem;
+}
+
+.Organization{
+    font-style: italic;
+    color: #555;
+}
+
+.update {
+    color: red;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.75rem;
+    color: #aaa;
+    margin-top: 2rem;
+}
