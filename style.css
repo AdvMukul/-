@@ -1,17 +1,16 @@
-   body {
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.6;
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
     margin: 0;
-   Padding: 0;
-    background: #f4f4f4;
-    font-size: 14px;
+    padding: 0;
 }
 
 .container {
     max-width: 900px;
     margin: 2rem auto;
-    background: #f4f4f4;
-    padding: 2rem
+    background: white;
+    padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
@@ -23,19 +22,13 @@
 }
 
 .profile img {
-    width: 200px;
-    border-radius: 10px;
-    height: auto;
-    object-fit: cover;
-    max-height: 350px;
+    width: 180px;
+    border-radius: 8px;
 }
 
 .info h1 {
     margin: 0;
-    color: var(--color-fg);
-    margin-bottom: 10px;
-    font-size: 2.5em;
-    font-weight: 700;
+    font-size: 3rem;
 }
 
 a {
@@ -48,13 +41,14 @@ a:hover {
 }
 
 .cv-link {
-   ext-decoration: none;
     color: #c33149;
-    font-weight: 600;
-    border-bottom: 1px dashed #ccc;
+    font-weight: bold;
 }
 
-
+.note {
+    font-style: italic;
+    color: #666;
+}
 
 hr {
     margin: 2rem 0;
