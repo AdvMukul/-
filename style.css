@@ -3,14 +3,12 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     margin: 0;
-    padding: 0;
     background: #f4f4f4;
-    color: var(--color-fg);
     font-size: 14px;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 2rem auto;
     background: white;
     padding: 2rem;
@@ -25,7 +23,7 @@ body {
 }
 
 .profile img {
-    width: 180px;
+    width: 200px;
     border-radius: 10px;
     height: auto;
     object-fit: cover;
@@ -51,15 +49,12 @@ a:hover {
 
 .cv-link {
    ext-decoration: none;
-    color: var(--link-hover-color);
+    color: #c33149;
     font-weight: 600;
     border-bottom: 1px dashed #ccc;
 }
 
-.note {
-    font-style: italic;
-    color: #666;
-}
+
 
 hr {
     margin: 2rem 0;
