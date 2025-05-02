@@ -41,6 +41,93 @@ body {
     transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
-
 .info h1 {
-    font-size: 3
+    font-size: 3.2rem;
+    margin: 0;
+    color: #222; /* Darker title for contrast */
+    font-weight: 700;
+    text-align: left;
+}
+
+a {
+    color: #00449e;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ff5c8e; /* Soft hover color for links */
+    text-decoration: underline;
+}
+
+.cv-link {
+    color: #e63946;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.note {
+    font-style: italic;
+    color: #777;
+    font-size: 1rem;
+}
+
+hr {
+    margin: 2rem 0;
+    border: none;
+    border-top: 2px solid #eee;
+}
+
+.papers ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1rem;
+}
+
+.papers li {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.papers li::before {
+    content: "• ";
+    color: #00449e; /* Matching list bullet with link color */
+}
+
+.Organization {
+    font-style: italic;
+    color: #555;
+    font-size: 1.1rem;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-top: 3rem;
+    padding: 1.5rem 0;
+    border-top: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .container {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+
+    .info h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+}
