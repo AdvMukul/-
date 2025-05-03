@@ -76,6 +76,7 @@ body {
     height: 30%; 
     width: auto;
     transition: opacity 0.3s ease;
+    transition: transform 0.3s ease-in-out
 }
 
 .connect-icons img:hover {
@@ -121,6 +122,7 @@ body {
 
 .resume-button:hover {
     background-color: #c0392b;
+    transition: transform 0.3s ease-in-out
 }
 
 @media (max-width: 768px) {
