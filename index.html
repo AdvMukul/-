@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mukul Yadav | Advocate</title>
+    <title>Mukul Yadav - Advocate</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js"></script> <style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
         <div class="left-section">
-            <img src="https://via.placeholder.com/250x300" alt="Mukul Yadav"> <h2>Mukul Yadav</h2>
+            <img src="https://via.placeholder.com/250x300" alt="Mukul Yadav">
+            <h2>Mukul Yadav</h2>
             <h3>Advocate</h3>
             <p>Practicing at the Delhi High Court. My area of practice focuses on criminal, civil, and intellectual property disputes. I am also proficient in legal research and drafting various legal documents.</p>
             <div class="connect-icons">
-                <a href="#"><i class="far fa-envelope"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a> </div>
+                <a href="#"><i class="far fa-envelope"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
         </div>
+
         <div class="right-section">
             <h2>About Me</h2>
             <p>I am an Advocate practicing at the Delhi High Court. My area of practice focuses on criminal, civil, and intellectual property disputes. I am also proficient in legal research and drafting various legal documents.</p>
@@ -27,7 +32,7 @@
                     <p>Cordale High School - 2018</p>
                     <p>Describe your responsibilities and achievements as a High School Teacher.</p>
                 </div>
-                </div>
+            </div>
 
             <div class="education-section">
                 <h3>Education</h3>
@@ -36,10 +41,22 @@
                     <p>Tresswood University - 2006</p>
                     <p>Phyllis Schwaiger Memorial Award</p>
                 </div>
-                </div>
+            </div>
 
             <a href="#" class="resume-button">Resume</a>
         </div>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const resumeButton = document.querySelector('.resume-button');
+            if (resumeButton) {
+                resumeButton.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    alert("Resume Download Functionality Not Implemented Yet.");
+                });
+            }
+        });
+    </script>
 </body>
 </html>
