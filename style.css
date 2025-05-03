@@ -1,133 +1,120 @@
 body {
-    font-family: 'Inter', sans-serif;
-    background-color: #e0e0e0;
-    color: #404258; 
+    font-family: 'Inter', sans-serif; /* More modern font */
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    background-color: #f2f2f2; /* Light gray background, softer than pure white */
+    color: #333; /* Dark gray, for better readability */
+    line-height: 1.7; /* Improved line height for readability */
 }
 
 .container {
-    max-width: 900px;
-    margin: 2rem auto;
-    background: #f4f4f4; 
-    padding: 2.5rem;
-    border-radius: 15px;
-    transition: box-shadow 0.3s ease-in-out;
-    
-}
-
-.container:hover {
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); 
+    max-width: 960px; /* Slightly wider for a more spacious feel */
+    margin: 40px auto; /* Increased margin for better spacing */
+    padding: 30px; /* Increased padding */
+    background-color: #fff; /* Still white, but the overall tone is warmer */
+    border-radius: 10px; /* Slightly more rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
 }
 
 .profile {
     display: flex;
-    gap: 2rem;
-    align-items: center;
-    margin-bottom: 1.5rem;
+    align-items: center; /* Vertically center items */
+    margin-bottom: 30px; /* Increased margin */
 }
 
 .profile img {
-    width: 30%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
+    width: 150px; /* Slightly larger image */
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 30px; /* Increased margin */
+    border: 3px solid #e0e0e0; /* Subtle border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-.profile img:hover {
-    transform: scale(1.05);
+.profile .info h1 {
+    font-size: 28px; /* Slightly larger heading */
+    margin-bottom: 10px;
+    color: #4a5568; /* Darker heading color */
 }
 
-.info h1 {
-    font-size: 3.2rem;
-    margin: 0;
-    color: #404258; 
-    font-weight: 700;
-    text-align: left;
+.profile .info p {
+    font-size: 18px; /* Increased font size */
+    margin-bottom: 15px; /* Increased margin */
+    color: #616e7c; /* Slightly darker body text */
 }
 
-a {
-    color: #00449e;
+.profile .info a {
+    color: #0077cc; /* Standard blue for links */
     text-decoration: none;
-    transition: color 0.3s ease-in-out;
 }
 
-a:hover {
-    color: #e63946; 
+.profile .info a:hover {
     text-decoration: underline;
+    color: #0056b3;
 }
 
-.cv-link {
-    color: #e63946;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: underline;
-}
-
-.note {
-    font-style: italic;
-    color: #777;
-    font-size: 1rem;
-}
 
 hr {
-    margin: 2rem 0;
-    border: none;
-    border-top: 2px solid #aaaaaa;
+    border: 1px solid #e0e0e0; /* Lighter border color */
+    margin: 40px 0; /* Increased margin */
+}
+
+.papers {
+    margin-bottom: 30px; /* Increased margin */
+}
+
+.papers h2 {
+    font-size: 24px; /* Slightly larger heading */
+    margin-bottom: 20px; /* Increased margin */
+    color: #4a5568;
 }
 
 .papers ul {
     list-style: none;
-    padding-left: 0;
-    margin-top: 1rem;
+    padding: 0;
+    margin: 0;
 }
 
 .papers li {
-    margin-bottom: 1.5rem;
-    font-size: 1.1rem;
+    margin-bottom: 25px; /* Increased margin */
+    font-size: 18px;
 }
 
-.papers li::before {
-    content: "• ";
-    color: #e63946; 
+.papers li a {
+    color: #0077cc;
+    text-decoration: none;
+     font-weight: bold; /* Make the certification titles bold */
 }
 
-.Organization {
+.papers li a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.papers li span.Organization{
+    color: #718096;
+    font-size: 16px;
+    display: block;
+    margin-top: 5px;
     font-style: italic;
-    color: #555;
-    font-size: 1.1rem;
 }
-
 
 footer {
     text-align: center;
-    font-size: 0.7rem;
-    color: #aaa;
-    margin-top: 3rem;
-    padding: 1.5rem 0;
-    border-top: 1px solid #aaaaaa;
+    padding: 25px; /* Increased padding */
+    background-color: #f7fafc; /* Very light gray footer */
+    color: #718096; /* Muted footer text color */
+    margin-top: 40px;
+    border-top: 1px solid #e0e0e0;
+    border-radius: 8px;
 }
-
-@media (max-width: 768px) {
-    .profile {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .profile img {
-        width: 150px;
-        height: 150px;
-    }
-
-    .container {
-        padding: 1.5rem;
-        margin: 1rem;
-    }
-
-    .info h1 {
-        font-size: 2.5rem;
-        text-align: center;
-    }
+.cv-link{
+    color: #0077cc; /* Standard blue for links */
+    text-decoration: none;
+    font-weight: bold;
 }
+.cv-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+</style>
