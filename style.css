@@ -1,97 +1,211 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
-
 body {
-  background: #fff;
-  color: #222;
-  line-height: 1.6;
-}
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
 
-.container {
-  display: flex;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px;
-  border-top: 3px solid #ccc;
-}
+        .container {
+            display: flex;
+            max-width: 1100px; /* Increased max-width for larger screens */
+            background-color: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin: 20px;
+            padding: 0; /* Remove default padding from container */
+            overflow: hidden; /* Added to contain the floated elements */
+        }
 
-.left {
-  flex: 1;
-  text-align: center;
-  padding: 20px;
-  border-right: 1px solid #ddd;
-}
+        .left-section {
+            flex: 0 0 350px; /* Increased width of left section */
+            background-color: #f0f0f0;
+            padding: 40px; /* Increased padding */
+            text-align: center;
+            border-right: 1px solid #ddd;
+            box-sizing: border-box; /* Ensure padding doesn't affect width */
+        }
 
-.profile-img {
-  width: 200px;
-  height: 250px;
-  border-radius: 15px;
-  object-fit: cover;
-}
+        .left-section img {
+            width: 250px; /* Increased image width */
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 20px; /* Increased margin */
+        }
 
-.left h1 {
-  margin: 20px 0 10px;
-  font-size: 24px;
-}
+        .left-section h2 {
+            font-size: 28px; /* Increased font size */
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
 
-.left h2 {
-  font-size: 16px;
-  color: #555;
-}
+        .left-section h3 {
+            font-size: 18px; /* Increased font size */
+            margin-bottom: 25px; /* Increased margin */
+            color: #e74c3c;
+            font-weight: normal;
+        }
 
-.social-icons {
-  margin-top: 20px;
-}
+        .left-section p {
+            font-size: 16px; /* Increased font size */
+            margin-bottom: 30px; /* Increased margin */
+            color: #7f8c8d;
+        }
 
-.social-icons a {
-  text-decoration: none;
-  margin: 0 10px;
-  font-size: 20px;
-  color: #000;
-}
+        .connect-icons {
+            display: flex;
+            justify-content: center; /* Center the icons */
+            gap: 20px; /* Increased gap */
+            margin-top: 30px; /* Increased margin */
+        }
 
-.right {
-  flex: 2;
-  padding: 20px;
-}
+        .connect-icons a {
+            font-size: 24px; /* Increased icon size */
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
 
-.about h2 {
-  margin-bottom: 10px;
-  font-size: 22px;
-}
+        .connect-icons a:hover {
+            color: #217dbb;
+        }
 
-.about p {
-  margin-bottom: 20px;
-  color: #444;
-}
+        .right-section {
+            flex: 1;
+            padding: 40px; /* Increased padding */
+            box-sizing: border-box; /* Ensure padding doesn't affect width */
+        }
 
-.info h3 {
-  margin-top: 20px;
-  font-size: 18px;
-  color: #000;
-}
+        .right-section h2 {
+            font-size: 32px; /* Increased font size */
+            margin-bottom: 25px; /* Increased margin */
+            color: #2c3e50;
+        }
 
-.info p {
-  margin: 5px 0 15px;
-  font-size: 15px;
-  color: #333;
-}
+        .right-section h3 {
+            font-size: 20px; /* Increased font size */
+            margin-bottom: 15px; /* Increased margin */
+            color: #34495e;
+        }
 
-.info small {
-  color: #666;
-}
+        .right-section p {
+            font-size: 18px; /* Increased font size */
+            line-height: 1.7; /* Increased line height for better readability */
+            margin-bottom: 30px; /* Increased margin */
+            color: #7f8c8d;
+        }
 
-.resume-btn {
-  margin-top: 30px;
-  padding: 10px 25px;
-  background: #e53935;
-  color: #fff;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 4px;
-}
+        .experience-section, .education-section {
+            margin-bottom: 40px; /* Increased margin */
+        }
+
+        .experience-section h3, .education-section h3 {
+            font-size: 24px; /* Increased font size */
+            margin-bottom: 20px; /* Increased margin */
+            color: #2c3e50;
+            font-weight: bold;
+        }
+
+        .experience-block, .education-block {
+            margin-bottom: 30px; /* Increased margin */
+            padding-left: 25px; /* Increased padding */
+            position: relative; /* Needed for the pseudo-element */
+        }
+
+        .experience-block h4, .education-block h4 {
+            font-size: 20px; /* Increased font size */
+            margin-bottom: 10px;
+            color: #3498db;
+        }
+
+        .experience-block p, .education-block p {
+            font-size: 18px; /* Increased font size */
+            color: #7f8c8d;
+        }
+
+        .resume-button {
+            display: inline-block;
+            padding: 15px 30px; /* Increased padding */
+            background-color: #e74c3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 20px; /* Increased font size */
+            transition: background-color 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .resume-button:hover {
+            background-color: #c0392b;
+        }
+
+        /* Media query for screens smaller than 768px (e.g., smartphones) */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                margin: 10px;
+                border-radius: 0;
+                box-shadow: none;
+            }
+
+            .left-section {
+                width: 100%;
+                padding: 20px;
+                border-right: none;
+                border-bottom: 1px solid #ddd;
+            }
+
+            .left-section img {
+                width: 200px;
+            }
+
+            .right-section {
+                width: 100%;
+                padding: 20px;
+            }
+
+            .right-section h2{
+                font-size: 28px;
+            }
+            .right-section h3{
+                font-size: 20px;
+            }
+            .right-section p{
+                font-size: 16px;
+                line-height: 1.5;
+            }
+            .experience-block h4, .education-block h4{
+                font-size: 18px;
+            }
+            .experience-block p, .education-block p{
+                font-size: 16px;
+            }
+            .connect-icons {
+                gap: 15px;
+            }
+            .connect-icons a{
+                font-size: 20px;
+            }
+            .resume-button{
+                font-size: 18px;
+                padding: 12px 25px;
+            }
+        }
+
+        /* Added for larger screens */
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 1200px; /* Further increased max-width for very large screens */
+            }
+            .left-section{
+                padding: 50px;
+            }
+            .right-section{
+                padding: 50px;
+            }
+        }
+    </style>
