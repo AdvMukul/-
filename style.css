@@ -99,30 +99,30 @@ body {
     color: #7f8c8d;
 }
 
-.experience-section, .education-section {
+.certifications-section, .education-section {
     margin-bottom: 40px;
 }
 
-.experience-section h3, .education-section h3 {
+.certifications-section h3, .education-section h3 {
     font-size: 24px;
     margin-bottom: 20px;
     color: #2c3e50;
     font-weight: bold;
 }
 
-.experience-block, .education-block {
+.certificatkon-block, .education-block {
     margin-bottom: 30px;
     padding-left: 25px;
     position: relative;
 }
 
-.experience-block h4, .education-block h4 {
+.certification-block h4, .education-block h4 {
     font-size: 20px;
     margin-bottom: 10px;
     color: #3498db;
 }
 
-.experience-block p, .education-block p {
+.certification-block p, .education-block p {
     font-size: 18px;
     color: #7f8c8d;
 }
