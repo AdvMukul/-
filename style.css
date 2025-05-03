@@ -165,7 +165,12 @@ body {
     }
 
     .connect-icons img {
-        height: 10px; /* Adjusted height for smaller screens */
+        height: 20%;
+        transition: transform 0.3s ease-in-out;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 10px; /* reduce from 20px */
+        margin-top: 10px;  
     }
 }
 
@@ -181,7 +186,12 @@ body {
     }
 
     .connect-icons img {
-        height: 10px; 
+        height: 20%;
+        transition: transform 0.3s ease-in-out;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 10px; /* reduce from 20px */
+        margin-top: 10px; 
     }
 }
 
