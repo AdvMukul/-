@@ -71,7 +71,7 @@ body {
 }
 
 .connect-icons img {
-    height: 24px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
     width: auto;
     transition: opacity 0.3s ease, transform 0.3s ease-in-out;
 }
@@ -215,7 +215,7 @@ footer {
     }
 
     .connect-icons img {
-        height: 20%;
+        height: 40px;
     }
 }
 
@@ -229,7 +229,5 @@ footer {
         padding: 50px;
     }
 
-    .connect-icons img {
-        height: 15%;
-    }
+   
 }
