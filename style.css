@@ -50,7 +50,7 @@ body {
 .left-section h3 {
     font-size: 18px;
     margin-bottom: 25px;
-    color: #7f8c8d; /* Changed color to dark grey */
+    color: #7f8c8d;
     font-weight: normal;
 }
 
@@ -69,11 +69,11 @@ body {
 
 .connect-icons a {
     text-decoration: none;
-    display: inline-block; /* To control the size of the image within */
+    display: inline-block;
 }
 
 .connect-icons img {
-    height: 24px; /* Adjusted height to make the logos smaller */
+    height: 10%; 
     width: auto;
     transition: opacity 0.3s ease;
 }
@@ -163,7 +163,7 @@ body {
     }
 
     .connect-icons img {
-        height: 20px; /* Adjusted height for smaller screens */
+        height: 10px; /* Adjusted height for smaller screens */
     }
 }
 
@@ -179,7 +179,7 @@ body {
     }
 
     .connect-icons img {
-        height: 28px; /* Adjusted height for larger screens */
+        height: 10px; 
     }
 }
 
