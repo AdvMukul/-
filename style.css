@@ -1,3 +1,4 @@
+/* style.css */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -49,7 +50,7 @@ body {
 .left-section h3 {
     font-size: 18px;
     margin-bottom: 25px;
-    color: #e74c3c;
+    color: #7f8c8d; /* Changed color to dark grey */
     font-weight: normal;
 }
 
@@ -67,14 +68,18 @@ body {
 }
 
 .connect-icons a {
-    font-size: 24px;
-    color: #3498db;
     text-decoration: none;
-    transition: color 0.3s ease;
+    display: inline-block; /* To control the size of the image within */
 }
 
-.connect-icons a:hover {
-    color: #217dbb;
+.connect-icons img {
+    height: 24px; /* Adjusted height to make the logos smaller */
+    width: auto;
+    transition: opacity 0.3s ease;
+}
+
+.connect-icons img:hover {
+    opacity: 0.8;
 }
 
 .right-section {
@@ -156,6 +161,10 @@ body {
         font-size: 18px;
         padding: 12px 25px;
     }
+
+    .connect-icons img {
+        height: 20px; /* Adjusted height for smaller screens */
+    }
 }
 
 @media (min-width: 1200px) {
@@ -167,6 +176,10 @@ body {
     }
     .right-section{
         padding: 50px;
+    }
+
+    .connect-icons img {
+        height: 28px; /* Adjusted height for larger screens */
     }
 }
 
