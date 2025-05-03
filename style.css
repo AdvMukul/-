@@ -110,23 +110,33 @@ body {
     font-weight: bold;
 }
 
-.certificatkon-block, .education-block {
+.certification-item, .education-block {
     margin-bottom: 30px;
     padding-left: 25px;
     position: relative;
 }
 
-.certification-block h4, .education-block h4 {
+.certification-title, .education-block h4 { 
     font-size: 20px;
     margin-bottom: 10px;
     color: #3498db;
 }
 
-.certification-block p, .education-block p {
+.certification-organization, .education-block p {
     font-size: 18px;
     color: #7f8c8d;
 }
 
+
+.certification-title {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.certification-title:hover {
+    color: #217dbb;
+    text-decoration: underline;
+}
 .resume-button {
     display: inline-block;
     padding: 15px 30px;
